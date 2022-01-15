@@ -3,7 +3,7 @@ MQTTClient client;
 int count = 1;
 int meCounter;
 
-static final String server = "mqtt://datt3700:datt3700experiments@datt3700.cloud.shiftr.io";
+static final String server = "mqtt://datt3700:SecretToketREPLACEME@datt3700.cloud.shiftr.io";
 
 void settings() {
   size(400, 400);

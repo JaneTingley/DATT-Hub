@@ -41,6 +41,22 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
+					"bubbleside" : 0,
+					"id" : "obj-2",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 434.0, 555.0, 171.0, 106.0 ],
+					"presentation_linecount" : 14,
+					"style" : "default",
+					"text" : "if you get an error using this, you can replace it with the instance used by the class.\n\nThe one in the configure message."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
 					"bubbleside" : 2,
 					"id" : "obj-15",
 					"maxclass" : "comment",
@@ -60,8 +76,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 316.0, 440.0, 22.0 ],
-					"text" : "configure mqtt://datt3700:datt3700experiments@datt3700.cloud.shiftr.io prof-mqtt"
+					"patching_rect" : [ 75.0, 316.0, 469.0, 22.0 ],
+					"text" : "configure mqtt://datt3700:TokenSecretREPLACEME@datt3700.cloud.shiftr.io prof-mqtt"
 				}
 
 			}
