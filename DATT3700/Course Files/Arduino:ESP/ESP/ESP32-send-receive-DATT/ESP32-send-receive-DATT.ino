@@ -21,13 +21,7 @@ void setup(){
 }
 
 void onConnectionEstablished(){
-<<<<<<< HEAD:DATT3700/Course Files/Arduino:ESP/ESP/ESP32-send-receive-DATT2010/ESP32-send-receive-DATT2010.ino
   client.subscribe("Topic", onMessageReceived); // When the topic is received - call onMessageReceived function - which prints to serial
-=======
-  // do not delete
-  //client.subscribe("Light", onMessageReceived); // When the topic is received - call onMessageReceived function - which prints to serial
-  //client.subscribe("Wind", onMessageReceived); // subscribe here
->>>>>>> 9dc81edca34a61d19d1fa6b4b7968329fac79d87:DATT3700/Course Files/Arduino:ESP/ESP/ESP32-send-receive-DATT/ESP32-send-receive-DATT.ino
    //client.subscribe("#", onMessageReceived); // subscribe to all
 }
 
