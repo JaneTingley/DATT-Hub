@@ -4,10 +4,11 @@
 #include "EspMQTTClient.h" // make sure this library is downloaded
 
 EspMQTTClient client(
-  "nameofNetwork", //SSID . "the name of your wifi Network"
-  "password", //pssword . "password of your network"
-  "datt2010-physical-computing.cloud.shiftr.io", // Location of Instance
-  "physical2010computing", //Token Secret
+  "SSID", //SSID . "the name of your wifi Network"
+  "Password", //pssword . "password of your network"
+  "nameOfInstance.cloud.shiftr.io", // Location of Instance
+  "nameOfInstance", //Name of Instance
+  "TokenSecret", //Token Secret
   "ESP32-Hello-World", //ClientID
    1883  // port
 );
@@ -21,8 +22,8 @@ void setup(){
 
 void onConnectionEstablished(){
   // do not delete
-  client.subscribe("Light", onMessageReceived); // When the topic is received - call onMessageReceived function - which prints to serial
-  client.subscribe("Wind", onMessageReceived); // subscribe here
+  //client.subscribe("Light", onMessageReceived); // When the topic is received - call onMessageReceived function - which prints to serial
+  //client.subscribe("Wind", onMessageReceived); // subscribe here
    //client.subscribe("#", onMessageReceived); // subscribe to all
 }
 
